@@ -1,0 +1,51 @@
+
+{
+	"配置参数": {
+		"DataFloor": ["3", "4", "9", "10", "11", "12"],
+		"Floor": ["-9", "-8", "-7", "-6", "-5", "-4"],
+		"FloorMax": "6",
+		"alarm_config": true,
+		"注1": "FloorMax为需要处理的楼层总数，例如一部电梯仅需要控制6层，FloorMax需要填写为6",
+		"注2": "DataFloor为查询帧中的1~32层，Floor为DataFloor实际对应的楼层",
+		"cancel_config": true,
+		"intent": "协议数据映射",
+		"nofloor_config": false,
+		"opendoor_wait": "2",
+		"register_config": true,
+		"volume": "20",
+		"wakeup_num": "3",
+		"welcome_config": false
+	},
+	"回应聊天": {
+		"intent":"回应聊天",
+		"serial": ""
+	},
+	"离线电梯__关轿厢门": {
+		"intent":"离线电梯__关轿厢门(05命令号,32为关门按键，01时间单位为1s,1时间倍数为1倍)",
+		"serial": "05320101"
+	},
+	"离线电梯__取消轿厢楼层选择<取消楼层>": {
+		"intent":"离线电梯__取消轿厢楼层选择<楼层号>(05命令号，01时间单位为1s,1时间倍数为1倍,02为连续按两次，600为连按取消的时间间隔，单位为ms)",
+		"serial": "05010102600"
+	},
+	"离线电梯__开轿厢门": {
+		"intent":"离线电梯__开轿厢门(05命令号,31为开门按键，01时间单位为1s,1时间倍数为1倍)",
+		"serial": "05310101"
+	},
+	"离线电梯__轿厢呼救": {
+		"intent":"离线电梯__轿厢呼救",
+		"serial": ""
+	},
+	"离线电梯__轿厢楼层选择<登记楼层>": {
+		"intent":"离线电梯__轿厢楼层选择<楼层号>制动(05命令号，01时间单位为1s,1时间倍数为1倍)",
+		"serial": "050101"
+	},
+	"release_turn": {
+		"intent":"release_turn",
+		"serial": ""
+	},
+	"release_turn_0": {
+		"intent":"release_turn_0",
+		"serial": ""
+	}
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name_elevator">快致梯控</string>
+    <string name="app_name_kuka">KUKA沙发</string>
+
+    <!--请求超时-->
+    <string name="request_error">请求超时，请重试。</string>
+    <string name="loading">正在加载中...</string>
+
+    <string name="num_1">1秒</string>
+    <string name="num_2">2秒</string>
+    <string name="greet">,请问您要去几楼？</string>
+</resources>

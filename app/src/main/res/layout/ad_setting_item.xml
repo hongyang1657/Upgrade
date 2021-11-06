@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/card_background_shape"
+    android:gravity="center_vertical"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_height="90dp">
+
+    <TextView
+        android:id="@+id/tv_floor"
+        android:text="1楼"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"/>
+    <ImageButton
+        android:id="@+id/ib_close"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/close"
+        android:background="@null"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/bt_play_sound"
+        android:layout_toLeftOf="@id/ib_close"
+        android:padding="10dp"
+        android:src="@mipmap/play_checked"
+        android:scaleType="centerInside"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/tv_ad_content"
+        android:background="@drawable/edittext_back_shape"
+        android:layout_toRightOf="@id/tv_floor"
+        android:hint="点击设置广告语"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/bt_play_sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

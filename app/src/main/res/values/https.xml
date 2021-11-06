@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--API_SECRET 与 API_KEY-->
+    <!--dialog_manager(对话管理器)-->
+    <string name="api_secret_dialog_manager">hd78fceaf5d445409610398d83088527</string>
+    <string name="api_key_dialog_manager">dialog_manage</string>
+    <!--notification( 消息推送服务)-->
+    <string name="api_secret_notification">963f926f3e4947e99d147b3c451abd6d</string>
+    <string name="api_key_notification">notification</string>
+    <!--fitme_pay(订单与支付服务)-->
+    <string name="api_secret_fitme_pay">h23f926f3e4947e99d147b3c451abd3e</string>
+    <string name="api_key_fitme_pay">fitme_pay</string>
+    <!--authentication(认证服务)-->
+    <string name="api_secret_authorization">fb78fceaf5d445409610398d83088529</string>
+    <string name="api_key_authorization">authorization</string>
+    <!--user_center(用户中心)-->
+    <string name="api_secret_user_center">ga78fceaf5d445409610398d83088528</string>
+    <string name="api_key_user_center">user_center</string>
+    <!--atom_service(原子服务)-->
+    <string name="api_secret_atom_service">as78fceaf5d446789610398d83088528</string>
+    <string name="api_key_atom_service">atom_service</string>
+    <!--micro_service(微服务)-->
+    <string name="api_secret_micro_service">d22bfa69b9e24025b62b03eb367af417</string>
+    <string name="api_key_micro_service">micro_service</string>
+
+    <!-- dache -->
+    <string name="api_secret_taxi_service">d22bfa69b9e24025b62b03eb367af417</string>
+    <string name="api_key_taxi_service">micro_service</string>
+
+    <!--内网 请求IP local -->
+    <!--dialog_manage	对话管理器-->
+    <!--<string name="base_url_dm">http://172.16.12.195:7050</string>-->
+    <!--&lt;!&ndash;notification    消息推送服务&ndash;&gt;-->
+    <!--<string name="base_url_nc">http://172.16.12.195:9001</string>-->
+    <!--&lt;!&ndash;<string name="base_url_nc">http://440838a2.ngrok.io</string>&ndash;&gt;-->
+    <!--&lt;!&ndash;dialog_policy	对话策略服务&ndash;&gt;-->
+    <!--<string name="base_url_dp">http://172.16.11.36:5026</string>-->
+    <!--&lt;!&ndash;fitme_pay	    订单与支付服务&ndash;&gt;-->
+    <!--<string name="base_url_pay">http://172.16.12.195:7090</string>-->
+    <!--&lt;!&ndash;authentication	认证服务&ndash;&gt;-->
+    <!--<string name="base_url_at">http://172.16.12.195:7060</string>-->
+    <!--&lt;!&ndash;user_center	用户中心&ndash;&gt;-->
+    <!--<string name="base_url_uc">http://172.16.12.181:7070</string>-->
+    <!--&lt;!&ndash;as	打车微服务&ndash;&gt;-->
+    <!--<string name="base_url_as">http://172.16.12.135:20041</string>-->
+    <!--&lt;!&ndash;  智能硬件&ndash;&gt;-->
+    <!--<string name="base_url_sd">http://172.16.12.176:20072</string>-->
+    <!--&lt;!&ndash;H5Url获取&ndash;&gt;-->
+    <!--<string name="base_url_h5">http://172.16.12.195:30003</string>-->
+    <!--&lt;!&ndash;音乐播放&ndash;&gt;-->
+    <!--<string name="music_player">http://172.16.12.181:20100</string>-->
+    <!--&lt;!&ndash;智能场景联动&ndash;&gt;-->
+    <!--<string name="base_url_ss">http://172.16.12.176:20073</string>-->
+    <!--&lt;!&ndash;闹钟管理&ndash;&gt;-->
+    <!--<string name="base_url_ac">http://172.16.12.135:20027</string>-->
+    <!--&lt;!&ndash;提醒管理&ndash;&gt;-->
+    <!--<string name="base_url_rm">http://172.16.12.135:20029</string>-->
+    <!--&lt;!&ndash;备忘录管理&ndash;&gt;-->
+    <!--<string name="base_url_mb">http://172.16.12.135:20021</string>-->
+    <!--&lt;!&ndash;图像上传&ndash;&gt;-->
+    <!--<string name="base_url_up">http://172.16.12.176:7080</string>-->
+    <!--&lt;!&ndash;app版本信息&ndash;&gt;-->
+    <!--<string name="base_url_vg">http://172.16.12.181:20001</string>-->
+
+
+    <!--自动化 stage实例-->
+    <!--dialog_manage	对话管理器-->
+    <!--<string name="base_url_dm">http://dialogmanage.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;notification	消息推送服务&ndash;&gt;-->
+    <!--<string name="base_url_nc">http://notification.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;dialog_policy	对话策略服务&ndash;&gt;-->
+    <!--<string name="base_url_dp">http://dialogpolicy.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;fitme_pay	订单与支付服务&ndash;&gt;-->
+    <!--<string name="base_url_pay">http://fitmepay.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;authentication	认证服务&ndash;&gt;-->
+    <!--<string name="base_url_at">http://authentication.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;user_center	用户中心&ndash;&gt;-->
+    <!--<string name="base_url_uc">http://usercenter.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;as	打车微服务&ndash;&gt;-->
+    <!--<string name="base_url_as">http://car.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;  智能硬件&ndash;&gt;-->
+    <!--<string name="base_url_sd">http://smarthardwarecontrol.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;H5Url获取&ndash;&gt;-->
+    <!--<string name="base_url_h5">http://apppresentation.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;音乐播放&ndash;&gt;-->
+    <!--<string name="music_player">http://contentservice.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;智能场景联动&ndash;&gt;-->
+    <!--<string name="base_url_ss">http://smartscen.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;闹钟管理&ndash;&gt;-->
+    <!--<string name="base_url_ac">http://alarmclock.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;提醒管理&ndash;&gt;-->
+    <!--<string name="base_url_rm">http://remind.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;备忘录管理&ndash;&gt;-->
+    <!--<string name="base_url_mb">http://memo.stage.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;图像上传&ndash;&gt;-->
+    <!--<string name="base_url_up">http://resources.stage.instances.fitme.ai:9999</string>-->
+
+    <!--自动化 production实例-->
+    <!--dialog_manage	对话管理器-->
+    <!--<string name="base_url_dm">http://dialogmanage.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;&lt;!&ndash;notification	消息推送服务&ndash;&gt;&ndash;&gt;-->
+    <!--<string name="base_url_nc">http://notification.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;<string name="base_url_nc">http://440838a2.ngrok.io</string>&ndash;&gt;-->
+    <!--&lt;!&ndash;dialog_policy	对话策略服务&ndash;&gt;-->
+    <!--<string name="base_url_dp">http://dialogpolicy.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;fitme_pay	订单与支付服务&ndash;&gt;-->
+    <!--<string name="base_url_pay">http://fitmepay.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;authentication	认证服务&ndash;&gt;-->
+    <!--<string name="base_url_at">http://authentication.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;user_center	用户中心&ndash;&gt;-->
+    <!--<string name="base_url_uc">http://usercenter.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;as	打车微服务&ndash;&gt;-->
+    <!--<string name="base_url_as">http://car.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;  智能硬件&ndash;&gt;-->
+    <!--<string name="base_url_sd">http://smarthardwarecontrol.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;H5Url获取&ndash;&gt;-->
+    <!--<string name="base_url_h5">http://apppresentation.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;音乐播放&ndash;&gt;-->
+    <!--<string name="music_player">http://contentservice.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;智能场景联动&ndash;&gt;-->
+    <!--<string name="base_url_ss">http://smartscen.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;闹钟管理&ndash;&gt;-->
+    <!--<string name="base_url_ac">http://alarmclock.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;提醒管理&ndash;&gt;-->
+    <!--<string name="base_url_rm">http://remind.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;备忘录管理&ndash;&gt;-->
+    <!--<string name="base_url_mb">http://memo.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;图像上传&ndash;&gt;-->
+    <!--<string name="base_url_up">http://resources.production.app.fitme.ai:9999</string>-->
+
+    <!--自动化 新版改动后production实例-->
+    <!--dialog_manage	对话管理器-->
+    <string name="base_url_dm">http://app.found-ai.cn:9999/production/dialogmanage/</string>
+    <!--notification	消息推送服务-->
+    <string name="base_url_nc">http://app.found-ai.cn:9999/production/notification/</string>
+    <!--dialog_policy	对话策略服务-->
+    <string name="base_url_dp">http://app.found-ai.cn:9999/production/dialogpolicy/</string>
+    <!--fitme_pay	订单与支付服务-->
+    <string name="base_url_pay">http://app.found-ai.cn:9999/production/fitmepay/</string>
+    <!--authentication	认证服务-->
+    <string name="base_url_at">http://app.found-ai.cn:9999/production/authentication/</string>
+    <!--user_center	用户中心-->
+    <string name="base_url_uc">http://app.found-ai.cn:9999/production/usercenter/</string>
+    <!--as	打车微服务-->
+    <string name="base_url_as">http://app.found-ai.cn:9999/production/car/</string>
+    <!--  智能硬件-->
+    <string name="base_url_sd">http://app.found-ai.cn:9999/production/smarthardwarecontrol/</string>
+    <!--H5Url获取-->
+    <string name="base_url_h5">http://app.found-ai.cn:9999/production/apppresentation/</string>
+    <!--音乐播放-->
+    <string name="music_player">http://app.found-ai.cn:9999/production/contentservice/</string>
+    <!--智能场景联动-->
+    <string name="base_url_ss">http://app.found-ai.cn:9999/production/smartscen/</string>
+    <!--闹钟管理-->
+    <string name="base_url_ac">http://app.found-ai.cn:9999/production/alarmclock/</string>
+    <!--提醒管理-->
+    <string name="base_url_rm">http://app.found-ai.cn:9999/production/remind/</string>
+    <!--备忘录管理-->
+    <string name="base_url_mb">http://app.found-ai.cn:9999/production/memo/</string>
+    <!--图像上传-->
+    <string name="base_url_up">http://app.found-ai.cn:9999/production/resources/</string>
+    <!--app版本信息-->
+    <string name="base_url_vg">http://app.found-ai.cn:9999/production/apprepository/</string>
+
+    <!--自动化 新版改动后stage实例-->
+    <!--dialog_manage	对话管理器-->
+    <!--<string name="base_url_dm">http://instances.found-ai.cn:9999/stage/dialogmanage/</string>-->
+    <!--&lt;!&ndash;notification	消息推送服务&ndash;&gt;-->
+    <!--<string name="base_url_nc">http://instances.found-ai.cn:9999/stage/notification/</string>-->
+    <!--&lt;!&ndash;dialog_policy	对话策略服务&ndash;&gt;-->
+    <!--<string name="base_url_dp">http://instances.found-ai.cn:9999/stage/dialogpolicy/</string>-->
+    <!--&lt;!&ndash;fitme_pay	订单与支付服务&ndash;&gt;-->
+    <!--<string name="base_url_pay">http://instances.found-ai.cn:9999/stage/fitmepay/</string>-->
+    <!--&lt;!&ndash;authentication	认证服务&ndash;&gt;-->
+    <!--<string name="base_url_at">http://instances.found-ai.cn:9999/stage/authentication/</string>-->
+    <!--&lt;!&ndash;user_center	用户中心&ndash;&gt;-->
+    <!--<string name="base_url_uc">http://instances.found-ai.cn:9999/stage/usercenter/</string>-->
+    <!--&lt;!&ndash;as	打车微服务&ndash;&gt;-->
+    <!--<string name="base_url_as">http://instances.found-ai.cn:9999/stage/car/</string>-->
+    <!--&lt;!&ndash;  智能硬件&ndash;&gt;-->
+    <!--<string name="base_url_sd">http://instances.found-ai.cn:9999/stage/smarthardwarecontrol/</string>-->
+    <!--&lt;!&ndash;H5Url获取&ndash;&gt;-->
+    <!--<string name="base_url_h5">http://instances.found-ai.cn:9999/stage/apppresentation/</string>-->
+    <!--&lt;!&ndash;音乐播放&ndash;&gt;-->
+    <!--<string name="music_player">http://instances.found-ai.cn:9999/stage/contentservice/</string>-->
+    <!--&lt;!&ndash;智能场景联动&ndash;&gt;-->
+    <!--<string name="base_url_ss">http://instances.found-ai.cn:9999/stage/smartscen/</string>-->
+    <!--&lt;!&ndash;闹钟管理&ndash;&gt;-->
+    <!--<string name="base_url_ac">http://instances.found-ai.cn:9999/stage/alarmclock/</string>-->
+    <!--&lt;!&ndash;提醒管理&ndash;&gt;-->
+    <!--<string name="base_url_rm">http://instances.found-ai.cn:9999/stage/remind/</string>-->
+    <!--&lt;!&ndash;备忘录管理&ndash;&gt;-->
+    <!--<string name="base_url_mb">http://instances.found-ai.cn:9999/stage/memo/</string>-->
+    <!--&lt;!&ndash;图像上传&ndash;&gt;-->
+    <!--<string name="base_url_up">http://instances.found-ai.cn:9999/stage/resources/</string>-->
+    <!--&lt;!&ndash;app版本信息&ndash;&gt;-->
+    <!--<string name="base_url_vg">http://instances.found-ai.cn:9999/stage/apprepository/</string>-->
+
+    <!--自动化 通用实例-->
+    <!--dialog_manage	对话管理器-->
+    <!--<string name="base_url_dm">http://dialogmanage.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;notification	消息推送服务&ndash;&gt;-->
+    <!--<string name="base_url_nc">http://notification.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;dialog_policy	对话策略服务&ndash;&gt;-->
+    <!--<string name="base_url_dp">http://dialogpolicy.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;fitme_pay	订单与支付服务&ndash;&gt;-->
+    <!--<string name="base_url_pay">http://fitmepay.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;authentication	认证服务&ndash;&gt;-->
+    <!--<string name="base_url_at">http://authentication.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;user_center	用户中心&ndash;&gt;-->
+    <!--<string name="base_url_uc">http://usercenter.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;as	打车微服务&ndash;&gt;-->
+    <!--<string name="base_url_as">http://car.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;  智能硬件&ndash;&gt;-->
+    <!--<string name="base_url_sd">http://smarthardwarecontrol.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;H5Url获取&ndash;&gt;-->
+    <!--<string name="base_url_h5">http://apppresentation.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;音乐播放&ndash;&gt;-->
+    <!--<string name="music_player">http://contentservice.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;智能场景联动&ndash;&gt;-->
+    <!--<string name="base_url_ss">http://smartscen.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;闹钟管理&ndash;&gt;-->
+    <!--<string name="base_url_ac">http://alarmclock.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;提醒管理&ndash;&gt;-->
+    <!--<string name="base_url_rm">http://remind.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;备忘录管理&ndash;&gt;-->
+    <!--<string name="base_url_mb">http://memo.xuh1.instances.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;图像上传&ndash;&gt;-->
+    <!--<string name="base_url_up">http://resources.xuh1.instances.fitme.ai:9999</string>-->
+
+    <!--自动化 联运项目实例-->
+    <!--dialog_manage	对话管理器-->
+    <!--<string name="base_url_dm">http://dialogmanage.scthotelproduction.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;notification	消息推送服务&ndash;&gt;-->
+    <!--<string name="base_url_nc">http://notification.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;dialog_policy	对话策略服务&ndash;&gt;-->
+    <!--<string name="base_url_dp">http://dialogpolicy.scthotelproduction.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;fitme_pay	订单与支付服务&ndash;&gt;-->
+    <!--<string name="base_url_pay">http://fitmepay.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;authentication	认证服务&ndash;&gt;-->
+    <!--<string name="base_url_at">http://authentication.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;user_center	用户中心&ndash;&gt;-->
+    <!--<string name="base_url_uc">http://usercenter.production.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;as	打车微服务&ndash;&gt;-->
+    <!--<string name="base_url_as">http://car.scthotelproduction.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;  智能硬件&ndash;&gt;-->
+    <!--<string name="base_url_sd">http://smarthardwarecontrol.scthotelproduction.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;H5Url获取&ndash;&gt;-->
+    <!--<string name="base_url_h5">http://apppresentation.scthotelproduction.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;音乐播放&ndash;&gt;-->
+    <!--<string name="music_player">http://contentservice.scthotelproduction.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;智能场景联动&ndash;&gt;-->
+    <!--<string name="base_url_ss">http://smartscen.scthotelproduction.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;闹钟管理&ndash;&gt;-->
+    <!--<string name="base_url_ac">http://alarmclock.scthotelproduction.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;提醒管理&ndash;&gt;-->
+    <!--<string name="base_url_rm">http://remind.scthotelproduction.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;备忘录管理&ndash;&gt;-->
+    <!--<string name="base_url_mb">http://memo.scthotelproduction.app.fitme.ai:9999</string>-->
+    <!--&lt;!&ndash;图像上传&ndash;&gt;-->
+    <!--<string name="base_url_up">http://resources.production.app.fitme.ai:9999</string>-->
+
+    <!--四川电信-->
+    <!--dialog_manage	对话管理器-->
+    <!--<string name="base_url_dm">http://dialogmanage.sctiotproduction.sct.found-ai.cn:6002</string>-->
+    <!--&lt;!&ndash;notification	消息推送服务&ndash;&gt;-->
+    <!--<string name="base_url_nc">http://notification.sctiotproduction.sct.found-ai.cn:6002</string>-->
+    <!--&lt;!&ndash;dialog_policy	对话策略服务&ndash;&gt;-->
+    <!--<string name="base_url_dp">http://dialogpolicy.sctiotproduction.sct.found-ai.cn:6002</string>-->
+    <!--&lt;!&ndash;fitme_pay	订单与支付服务&ndash;&gt;-->
+    <!--<string name="base_url_pay">http://fitmepay.sctiotproduction.sct.found-ai.cn:6002</string>-->
+    <!--&lt;!&ndash;authentication	认证服务&ndash;&gt;-->
+    <!--<string name="base_url_at">http://authentication.sctiotproduction.sct.found-ai.cn:6002</string>-->
+    <!--&lt;!&ndash;user_center	用户中心&ndash;&gt;-->
+    <!--<string name="base_url_uc">http://usercenter.sctiotproduction.sct.found-ai.cn:6002</string>-->
+    <!--&lt;!&ndash;as	打车微服务&ndash;&gt;-->
+    <!--<string name="base_url_as">http://car.sctiotproduction.sct.found-ai.cn:6002</string>-->
+    <!--&lt;!&ndash;  智能硬件&ndash;&gt;-->
+    <!--<string name="base_url_sd">http://smarthardwarecontrol.sctiotproduction.sct.found-ai.cn:6002</string>-->
+    <!--&lt;!&ndash;H5Url获取&ndash;&gt;-->
+    <!--<string name="base_url_h5">http://apppresentation.sctiotproduction.sct.found-ai.cn:6002</string>-->
+    <!--&lt;!&ndash;音乐播放&ndash;&gt;-->
+    <!--<string name="music_player">http://contentservice.sctiotproduction.sct.found-ai.cn:6002</string>-->
+    <!--&lt;!&ndash;智能场景联动&ndash;&gt;-->
+    <!--<string name="base_url_ss">http://smartscen.sctiotproduction.sct.found-ai.cn:6002</string>-->
+    <!--&lt;!&ndash;闹钟管理&ndash;&gt;-->
+    <!--<string name="base_url_ac">http://alarmclock.sctiotproduction.sct.found-ai.cn:6002</string>-->
+    <!--&lt;!&ndash;提醒管理&ndash;&gt;-->
+    <!--<string name="base_url_rm">http://remind.sctiotproduction.sct.found-ai.cn:6002</string>-->
+    <!--&lt;!&ndash;备忘录管理&ndash;&gt;-->
+    <!--<string name="base_url_mb">http://memo.sctiotproduction.sct.found-ai.cn:6002</string>-->
+</resources>

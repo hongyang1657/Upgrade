@@ -1,0 +1,50 @@
+{
+	"-2": {
+		"intent":"设备唯一码",
+		"device_id":"14845AB19107890FGHIJ",
+		"wakeup_num":"4",
+		"ask_time":"3",
+		"register_config":true,
+		"cancel_config":true,
+		"alarm_config":false,
+		"welcome_config":true,
+		"welcomeTime":"2",
+		"注3":"接收到电梯看门信号到播放欢迎乘梯的时间间隔，单位s"
+	},
+	"-1": {
+		"intent":"Data1标号，默认00(轿内)",
+		"serial": "00"
+	},
+	"0": {
+		"intent":"回应聊天",
+		"serial": ""
+	},
+	"1": {
+		"intent":"离线电梯__关轿厢门(03表示开关门，00表示轿内，00表示主门，01关门)",
+		"serial": "03000001"
+	},
+	"2": {
+		"intent":"离线电梯__取消轿厢楼层选择<楼层号>(CC表示取消登记楼层，04表示Floor1从data4开始(不算帧头))",
+		"serial": "00"
+	},
+	"3": {
+		"intent":"离线电梯__开轿厢门(03表示开关门，00表示轿内，00表示主门，00开门)",
+		"serial": "03000000"
+	},
+	"4": {
+		"intent":"离线电梯__轿厢呼救",
+		"serial": ""
+	},
+	"5": {
+		"intent":"离线电梯__轿厢楼层选择<楼层号>(02登记楼层，00轿内，00主门)",
+		"serial": "020000"
+	},
+	"6": {
+		"intent":"release_turn",
+		"serial": ""
+	},
+	"7": {
+		"intent":"release_turn_0",
+		"serial": ""
+	}
+}

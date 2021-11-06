@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="31dp"
+        android:src="@mipmap/icon_back_register" />
+
+    <TextView
+        android:id="@+id/tv_register_step1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_back"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="32dp"
+        android:text="注册3/3 "
+        android:textColor="@color/color_FF111111"
+        android:textSize="32sp" />
+
+    <RelativeLayout
+        android:id="@+id/pwd_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/tv_register_step1"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/ayah_login_input_bg">
+
+        <EditText
+            android:maxLength="20"
+            android:id="@+id/password_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/pwd_show"
+            android:background="@null"
+            android:hint="请输入6-20位密码"
+            android:inputType="textPassword"
+            android:textColor="@color/color_333333"
+            android:textColorHint="#FF999999"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/pwd_show"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:scaleType="center"
+            android:src="@mipmap/icon_eye_close" />
+
+    </RelativeLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/pwd_wrong"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="18dp"-->
+        <!--android:layout_below="@id/pwd_input"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginLeft="44dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:text=""-->
+        <!--android:textColor="@color/color_FFF34545"-->
+        <!--android:textSize="12sp" />-->
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/pwd_input"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="40dp"
+        android:background="@mipmap/btn_bg_normal"
+        android:text="完成并登录"
+        android:textColor="@color/color_FFFFFFFF"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>

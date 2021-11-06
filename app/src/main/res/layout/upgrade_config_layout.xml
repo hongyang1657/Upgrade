@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:text="方得快致语音梯控器快速配置"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/alipayBlue"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:paddingTop="40dp"
+        android:paddingBottom="10dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:visibility="gone"
+        android:src="@mipmap/back"
+        android:clickable="true"
+        android:layout_alignBottom="@id/tv_title"
+        android:paddingBottom="10dp"
+        android:paddingLeft="4dp"
+        android:paddingTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tl_main"
+        android:layout_below="@id/tv_title"
+        android:background="@color/alipayBlue"
+        app:tabTextColor="@color/colorWhite"
+        app:tabIndicatorColor="@color/colorTuomanRed"
+        app:tabIndicatorHeight="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.google.android.material.tabs.TabLayout>
+
+    <TextView
+        android:id="@+id/tv_blank"
+        android:layout_below="@id/tv_title"
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_alignBottom="@id/tl_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ai.fitme.ayahupgrade.ui.view.SettingViewpager
+        android:id="@+id/vp_main"
+        android:layout_below="@id/tl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

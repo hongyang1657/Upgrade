@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="31dp"
+        android:src="@mipmap/icon_back_register" />
+
+    <TextView
+        android:id="@+id/tv_register_step1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_back"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="32dp"
+        android:text="注册1/3 "
+        android:textColor="@color/color_FF111111"
+        android:textSize="32sp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_register_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/tv_register_step1"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/ayah_login_input_bg">
+
+        <EditText
+            android:inputType="phone"
+            android:id="@+id/phone_number_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="24dp"
+            android:layout_toLeftOf="@+id/phone_number_delete"
+            android:background="@null"
+            android:hint="请输入手机号"
+            android:maxLength="15"
+            android:textColor="@color/color_333333"
+            android:textColorHint="#FF999999"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/phone_number_delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:src="@mipmap/icon_input_dele" />
+
+    </RelativeLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/phone_number_wrong"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="18dp"-->
+        <!--android:layout_below="@id/rl_register_number_input"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginLeft="44dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:text=""-->
+        <!--android:textColor="@color/color_FFF34545"-->
+        <!--android:textSize="12sp" />-->
+
+    <Button
+        android:id="@+id/btn_get_check_code"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/rl_register_number_input"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="40dp"
+        android:background="@mipmap/btn_bg_normal"
+        android:text="获取验证码"
+        android:textColor="@color/color_FFFFFFFF"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_get_check_code"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:visibility="visible"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册即代表阅读并同意"
+            android:textColor="@color/color_FF6D6D6D"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:visibility="visible"
+            android:id="@+id/tv_treaty2"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="隐私条款"
+            android:textColor="@color/green_1"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_toLeftOf="@+id/tv_treaty2"
+            android:text="和"
+            android:textSize="12sp"
+            android:textColor="@color/color_FF6D6D6D"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/tv_and"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_treaty1"
+            android:text="服务协议"
+            android:textColor="@color/green_1"
+            android:textSize="12sp"
+            android:layout_toLeftOf="@+id/tv_and"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

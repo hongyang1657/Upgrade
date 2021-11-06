@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ai.fitme.ayahupgrade">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <!--保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <uses-feature android:name="android.hardware.usb.host" android:required="true" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_launcher"
+        android:label="@string/app_name_elevator"
+        android:roundIcon="@mipmap/icon_launcher"
+        android:supportsRtl="true"
+        android:name=".MainApplication"
+        android:theme="@style/QMUI"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".ui.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.activity.KukaDataCollectionActivity"
+            android:launchMode="singleTask">
+
+        </activity>
+
+        <activity android:name=".ui.activity.login.LoginActivity"
+            android:launchMode="singleTask"/>
+        <activity android:name=".ui.activity.login.Register1Activity"/>
+        <activity android:name=".ui.activity.login.Register2Activity"/>
+        <activity android:name=".ui.activity.login.Register3Activity"/>
+
+        <activity android:name=".ui.activity.MainActivity"
+            android:launchMode="singleTask">
+
+        </activity>
+
+        <activity android:name=".ui.activity.UpgradeConfigActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+
+        </activity>
+
+        <activity android:name=".ui.activity.SerialTransmissionActivity" >
+
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.activity.AdbDevelopmentActivity">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.DEFAULT" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".ui.activity.AdvertisingSettingActivity"/>
+        <activity android:name=".ui.activity.SettingActivity" />
+        <activity android:name=".ui.activity.OTAActivity_old"/>
+        <activity android:name=".ui.activity.OTAActivity"/>
+
+        <!--        <activity android:name=".ui.activity.TTsTestActivity">-->
+<!--            <intent-filter >-->
+<!--                <action android:name="android.intent.action.MAIN"/>-->
+<!--                <category android:name="android.intent.category.LAUNCHER"/>-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+
+        <meta-data android:name="channel"
+            android:value="${APP_CHANNEL_VALUE}"/>
+
+        <provider
+            android:name="cn.bmob.v3.util.BmobContentProvider"
+            android:authorities="ai.fitme.ayahupgrade.BmobContentProvider">
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:paddingTop="40dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal"
+        android:background="@color/alipayBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:text="连接梯控"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_skip"
+            android:text="跳过"
+            android:clickable="true"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/colorWhite"
+            android:layout_alignTop="@id/tv_title"
+            android:layout_alignBottom="@id/tv_title"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_setting"
+            android:text="设置"
+            android:gravity="center"
+            android:clickable="true"
+            android:textSize="14sp"
+            android:layout_marginStart="20dp"
+            android:layout_alignTop="@id/tv_title"
+            android:layout_alignBottom="@id/tv_title"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/card_background_shape"
+            android:gravity="center"
+            android:layout_width="260dp"
+            android:layout_height="360dp">
+
+            <TextView
+                android:id="@+id/tv_tips"
+                android:padding="20dp"
+                android:gravity="center"
+                android:textColor="@color/qmui_s_list_item_text_color"
+                android:text="请用USB数据线连接设备与手机"
+                android:textSize="22sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.qmuiteam.qmui.layout.QMUIButton
+        android:id="@+id/bt_next"
+        android:background="@drawable/floor_button_shape"
+        android:text="设备未连接"
+        android:focusable="false"
+        android:clickable="false"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="30dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"/>
+</LinearLayout>

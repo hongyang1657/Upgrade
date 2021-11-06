@@ -1,0 +1,63 @@
+{
+    "0" : {
+        "mode":"random",
+        "urls" : [
+            [
+            ]
+        ]
+    },
+    "1" : {
+        "mode":"random",
+        "urls" : [
+            [
+            "intent/准备关门.wav"
+            ]
+        ]
+    },
+    "2" : {
+        "mode":"random",
+        "urls" : [
+            [
+            "<取消楼层>"
+            ]
+        ]
+    },
+    "3" : {
+        "mode":"random",
+        "urls" : [
+            [
+            "intent/准备开门.wav"
+            ]
+        ]
+    },
+    "4" : {
+        "mode":"random",
+        "urls" : [
+            [
+            "intent/正在呼救.wav"
+            ]
+        ]
+    },
+    "5" : {
+        "mode":"random",
+        "urls" : [
+            [
+            "<登记楼层>"
+            ]
+        ]
+    },
+    "6" : {
+        "mode":"random",
+        "urls" : [
+            [
+            ]
+        ]
+    },
+    "7" : {
+        "mode":"random",
+        "urls" : [
+            [
+            ]
+        ]
+    }
+}
